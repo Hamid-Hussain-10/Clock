@@ -1,0 +1,111 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .app {
+    background-color: #3e4a61;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Timer Display */
+  .timer-display {
+    background-color: #1e2a39;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  #timer-label {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #time-left {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00e676;
+  }
+  
+  /* Timer Controls */
+  .timer-controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+  .timer-controls button {
+    background-color: #00e676;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .timer-controls button:hover {
+    background-color: #00c853;
+  }
+  
+  /* Timer Settings */
+  .timer-settings {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .timer-settings h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .session-control, .break-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e2a39;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 45%;
+  }
+  
+  .session-control button, .break-control button {
+    background-color: #2196f3;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin: 0.5rem;
+  }
+  
+  .session-control button:hover, .break-control button:hover {
+    background-color: #1976d2;
+  }
+  
+  #session-length, #break-length {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
